@@ -12,7 +12,8 @@ class FindGreatest {
         Scanner cinput = new Scanner(System.in);
         int c = cinput.nextInt();
         int g = 0;
-
+        int max;
+//one way
         if(a>=b && a>=c){
             g = a;
         }else if (b>=c && b>=a){
@@ -21,6 +22,24 @@ class FindGreatest {
         else if (c>=a && c>=b){
             g = c;
         }
+
+
+        //second way
+        if (a>b){
+            max = a;
+        }
+        else {
+            max = b;
+        }
+        if(c>max){
+            max = c;
+        }
+
+        //Using math.max
+        int m = Math.max(Math.max(a,b),c);
+
         System.out.println("The greatest number is\t" + g);
+        System.out.println("max is\t" + max);
+        System.out.println("m is\t" + m);
     }
 }
