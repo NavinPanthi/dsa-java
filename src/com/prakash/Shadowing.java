@@ -10,5 +10,9 @@ public class Shadowing {
 //        System.out.println(x); we cannot do this because the scope of x starts when it is initialized.
         x = 410;
         System.out.println(x);
+        fun(x);
+    }
+    static void fun (int x){
+        System.out.println("fun"+ x);
     }
 }
