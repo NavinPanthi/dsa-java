@@ -1,6 +1,4 @@
-package com.bed;
-
-import java.util.Scanner;
+package com.intro;
 
 public class Primitives {
     public static void main(String[] args) {

@@ -1,5 +1,5 @@
 //Program to find nth fibonacci number
-package com.prakash;
+package com.basic;
 
 import java.util.Scanner;
 
