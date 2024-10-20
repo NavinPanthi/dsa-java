@@ -1,4 +1,4 @@
-package com.bed;
+package com.intro;
 
 import java.util.Scanner;
 

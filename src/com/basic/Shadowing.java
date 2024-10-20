@@ -1,4 +1,4 @@
-package com.prakash;
+package com.basic;
 
 public class Shadowing {
     static int x = 40;
